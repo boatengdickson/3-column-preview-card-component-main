@@ -15,6 +15,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: var(--very-light-gray);
 }
 
 html{
@@ -34,8 +35,18 @@ html{
 
 /*  Buttons  */
 .button {
-  padding: 0.7rem 1.1rem;
-  border: 0;
+  padding: 1.5rem 2.2rem;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 2rem;
+  outline: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 2px solid var(--very-light-gray);
+  background: none;
+  color: var(--very-light-gray);
 }
 
 .button--white {
@@ -58,6 +69,7 @@ html{
   color: var(--very-dark-cyan);
 }
 
+
 /* Text  */
 .text {
   font-size: 1.5rem;
@@ -70,8 +82,47 @@ html{
 
 .text .paragraph {
   font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.5;
 }
 
 .text--padding {
   padding: 1.2rem;
-} 
+}
+
+.text--white {
+  color: var(--very-light-gray);
+}
+
+/* Card   */
+.card {
+  margin: 2rem;
+  padding: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.card__round1 {
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.card__round2 {
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.card__component {
+  padding: 2rem;
+}
+
+.card--sedans {
+  background: var(--bright-orange);
+}
+
+.card--suvs {
+  background: var(--dark-cyan);
+}
+
+.card--luxury {
+  background: var(--very-dark-cyan);
+}
+
+

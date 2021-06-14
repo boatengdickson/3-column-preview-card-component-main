@@ -8,10 +8,19 @@
     --very-light-gray: hsl(0, 0%, 95%);
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html{
   font-size: 62.5%;
-  font-size: 1.5rem;
 }
+
 
 .attribution {
     font-size: 11px;
@@ -48,3 +57,21 @@ html{
 .button--luxury {
   color: var(--very-dark-cyan);
 }
+
+/* Text  */
+.text {
+  font-size: 1.5rem;
+}
+
+.text .heading {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+}
+
+.text .paragraph {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.text--padding {
+  padding: 1.2rem;
+} 

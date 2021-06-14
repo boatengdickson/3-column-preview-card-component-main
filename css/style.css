@@ -8,10 +8,43 @@
     --very-light-gray: hsl(0, 0%, 95%);
 }
 
+html{
+  font-size: 62.5%;
+  font-size: 1.5rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/*  Buttons  */
+.button {
+  padding: 0.7rem 1.1rem;
+  border: 0;
+}
+
+.button--white {
+  background: var(--very-light-gray);
+}
+
+.button--round {
+  border-radius: 3rem;
+}
+
+.button--sedans {
+  color: var(--bright-orange);
+}
+
+.button--suvs {
+  color: var(--dark-cyan);
+}
+
+.button--luxury {
+  color: var(--very-dark-cyan);
+}

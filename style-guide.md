@@ -34,8 +34,4 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700
 
-SUVs Take an SUV
-for its spacious interior, power, and versatility. Perfect for your next
-family vacation and off-road adventures. Luxury Cruise in the best car
-brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-rental and arrive in style.
+
